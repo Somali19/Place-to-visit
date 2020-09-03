@@ -1,0 +1,104 @@
+body 
+{
+      background-image: linear-gradient( rgba(13, 14, 13, 0.76), rgba(250, 164, 221, 0.472)), url("background.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     overflow-x: hidden;
+     background-attachment: fixed; /* The background picture will remain fixed when we scroll */
+     text-align: center;
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+
+}
+
+button::before,
+button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+  .btn-3  {
+    margin-top: 300px;
+  }
+
+
+.btn-3::after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  
+  .btn-3:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+   a{
+       text-decoration: none;
+       color: rgb(11, 255, 235);
+   }
+
+   .btn-4  {
+    margin-top: 40px;
+  }
+
+
+.btn-4::after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  
+  .btn-4:hover:after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: 80px;
+   margin-left: auto;
+   margin-right: auto;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;  /* Text Animation */
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {    /* @webkit - it ia an animation rule */
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #5ef72f, 0 0 40px #07b44f, 0 0 50px #048f32, 0 0 60px #08be91, 0 0 70px #05bb3c, 0 0 80px #048f2d;
+    }
+  }
+ 
