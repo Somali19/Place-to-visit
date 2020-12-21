@@ -4,4 +4,4 @@ This website contain the some of the place of India which we must visit in summe
 
 It is made using HTML, CSS , WebAR.
 
-This website provide AR/VR view of the places.
+This website provide VR view of the places.
